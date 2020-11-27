@@ -25,6 +25,8 @@ const addproduct		    = require('./controllers/addproduct');
 /*const profile		    = require('./controllers/profile');*/
 const main		    = require('./controllers/main');
 const lg		    = require('./controllers/lg');
+const clogin				= require('./controllers/clogin');
+const chome				= require('./controllers/chome');
 const app				= express();
 const port				= 3000;
 
@@ -62,6 +64,8 @@ app.use('/pdfmake', pdfmake);
 app.use('/addproduct', addproduct);
 app.use('/main', main);
 app.use('/lg', lg);
+app.use('/clogin', clogin);
+app.use('/chome', chome);
 /*app.use('/profile', profile);*/
 
 //router
