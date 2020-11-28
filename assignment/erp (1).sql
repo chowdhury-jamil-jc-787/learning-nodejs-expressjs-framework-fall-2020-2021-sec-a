@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 28, 2020 at 12:49 PM
+-- Generation Time: Nov 28, 2020 at 01:06 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.11
 
@@ -72,8 +72,8 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`id`, `cemail`, `cpass`, `cname`) VALUES
-(1, 'jk@gmail.com', '1234', 'jk'),
-(2, 'p@gmail.com', '1234', 'jk');
+(1, 'jc', 'jc', '1234'),
+(2, 'jc1', 'jc1', '1234');
 
 -- --------------------------------------------------------
 
