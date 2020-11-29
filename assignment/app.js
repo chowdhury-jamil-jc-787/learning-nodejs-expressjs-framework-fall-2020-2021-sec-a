@@ -27,6 +27,7 @@ const main		    = require('./controllers/main');
 const lg		    = require('./controllers/lg');
 const clogin				= require('./controllers/clogin');
 const chome				= require('./controllers/chome');
+const csignup		    = require('./controllers/csignup');
 const app				= express();
 const port				= 3000;
 
@@ -66,6 +67,7 @@ app.use('/main', main);
 app.use('/lg', lg);
 app.use('/clogin', clogin);
 app.use('/chome', chome);
+app.use('/csignup', csignup);
 /*app.use('/profile', profile);*/
 
 //router
